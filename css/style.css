@@ -1,0 +1,81 @@
+header,
+section,
+footer {
+  border: 1px solid;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header  */
+.header {
+  background-color: rgba(236,236,236,1);
+}
+
+.nav-logo {
+  color: var(--black-logo);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.text-blue {
+  color: var(--blue-text);
+}
+
+.nav-item {
+  color: var(--black-text);
+  font-weight: 500;
+}
+
+.nav-item-grey {
+  color: var(--gray-text);
+  font-weight: 500;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item-grey:hover,
+.nav-item-grey:focus {
+  color: var(--blue-text);
+}
+ 
+/* main  */
+.section-main {
+  background-color: rgba(47,48,58,1);
+  color: var(--white-text);
+}
+
+.main-title {
+  font-weight: 900;
+}
+
+.main-btn {
+  color: var(--white-text);   
+}
+
+.title {
+  color: var(--black-text);
+}
+
+.text {
+  color: var(--grey-text);
+}
+
+.team {
+  background-color: rgba(245,244,250,1);
+}
+
+/* footer */
+.footer {
+  background-color: rgba(47,48,58,1);
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--white-text-op06);
+}
+
+.footer-address {
+  color: var(--white-text);
+}
