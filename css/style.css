@@ -72,7 +72,7 @@ p, h1, h2, h3 {
 
 /* header  */
 .header {
-  background-color: rgba(236,236,236,1);
+  background-color: #fff;
   min-height: 80px;
 }
 
